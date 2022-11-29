@@ -11,7 +11,7 @@
 	
 	<?php
 		if (isset($_POST['submit'])) {
-			function ralignpyramid($num)
+			function malignpyramid($num)
 			{
 				$num = $_POST['number'];
 
@@ -28,7 +28,7 @@
 			        echo "<br>";
 			    }
 			}
-			ralignpyramid($num);
+			malignpyramid($num);
 		}
 	?>
 </body>
